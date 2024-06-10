@@ -1,0 +1,19 @@
+#header{
+    justify-content: center;
+    text-align: center;
+}
+.custom-button{
+    border: none;
+    border-radius: 3px;
+}
+.side-img{
+    width: 230px;
+    height: 300px;
+}
+.side-img2{
+    height: 290px;
+    width: 230px;
+}
+.link{
+    padding: 10px;
+}

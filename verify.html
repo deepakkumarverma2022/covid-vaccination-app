@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verification certificate</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="Vstyle.css">
+</head>
+
+<body>
+        <div class="container-fluid" id="header">
+            <img src="https://verify.cowin.gov.in/static/media/verify-certificate.29230f43.png" class="banner-img"
+                alt="banner-img">
+            <h3>Verify a vaccination certificate</h3><br>
+            <button class="custom-button" style="background-color:rgb(77,184,100)">
+                <span>Scan QR code</span>
+                <img class="" src="https://verify.cowin.gov.in/static/media/qr-code.0d1efb4c.svg" alt="">
+            </button>
+        </div><br>
+
+        <div class="container">
+            <p>
+                The Co-WIN vaccination certificate has a digitally signed secure QR code. This can be authenticated
+                online
+                using the verification utility in this portal or using third party verification app using the services
+                outlined below.
+            </p>
+            <h6 style="color:rgb(100,109,130)">Option 1 - Online verification</h6>
+            <p style="color: rgb(100,109,130)">Steps for online verification:</p>
+            <ol class="verify-options">
+                <li class="link">Visit <a href="https://verify.cowin.gov.in/">https://verify.cowin.gov.in/</a></li>
+                <li class="link">Click on <b>"Scan QR"</b> code</li>
+                <li class="link">A notification will prompt to activate your device’s camera</li>
+                <li class="link">Point the camera to the QR code on the bottom right of the certificate issued and scan
+                </li>
+                <li class="link">Please keep the following points in mind while scanning the QR code</li>
+                <ul class="link">
+                    <li class="link">QR code should cover at-least 70%-80% of screen</li>
+                    <li class="link">Complete QR code should be part of camera frame</li>
+                    <li class="link">QR code should be parallel to the camera</li>
+                    <li class="link">Camera should be hold steadily for at-least 5 sec</li>
+                </ul>
+                <li class="link">If camera is unable to read the QR code within 45 seconds, a message - <b>“Camera is
+                        not able to read
+                        the QR code, please try again”</b> with a try again button will be displayed. Verifier will be
+                    required to scan the QR code again following the instructions mentioned in Step 2.</li>
+                <li class="link">On successful verification, following attributes are displayed on the screen:</li>
+                <div class="row">
+                    <div class="col">
+                        <ul class="success-verify">
+                            <li class="link">Message <b>“Certificate Successfully Verified”</b></li>
+                            <li class="link">Name</li>
+                            <li class="link">Age</li>
+                            <li class="link">Gender</li>
+                            <li class="link">Certificate ID</li>
+                            <li class="link">Beneficiary ID</li>
+                            <li class="link">Vaccine Name</li>
+                            <li class="link">Date of Dose</li>
+                            <li class="link">Vaccination Status</li>
+                            <li class="link">Vaccine at</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <img class="side-img"
+                            src="https://verify.cowin.gov.in/static/media/ValidCertificate.9047ddaf.png" alt="error">
+                    </div>
+                </div>
+                <li class="link">In case of an unsuccessful verification if the certificate is not genuine, screen will
+                    show the message
+                    “Certificate Invalid”</li>
+                <img class="side-img2" src="img/download.png"
+                    alt="">
+
+            </ol>
+            <hr style="margin-top: 3rem; margin-bottom: 3rem;">
+            <h6 style="color:rgb(100,109,130)">Option 2 – Offline verification through third party verifier app</h6>
+            <p style="color: rgb(100,109,130);">Steps for offline verification:</p>
+            <ol class="verify-steps">
+                <li class="link">Access the Co-WIN verification service and code for set up
+                    <a href="" target="_blank" >here</a>
+                </li>
+                <li class="link">Get code snippet for reference and implement</li>
+                <li class="link">Replace the public key used in code snippet with Public key available
+                    <a href="" target="_blank">here.</a>
+                </li>
+                <li class="link">Replace the public key used in code snippet with Public key available</li>
+            </ol>
+            <p>In case you need any clarification or support in implementing the verifier app, contact 
+                <a href="" target="_blank">divoc-support@egov.org.in</a>
+            </p>
+        </div>
+
+
+</body>
+
+</html>

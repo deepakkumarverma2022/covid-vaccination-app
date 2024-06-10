@@ -1,0 +1,237 @@
+nav {
+    background: #6ABDDA;
+}
+.navbar-brand {
+    color: white;
+    font-size: 30px;
+}
+.nav-item {
+    margin: 0 20px;
+}
+.nav-link{
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.nav-link:hover {
+    color: black;
+}
+.btn-blue {
+    background-color: #24AAD8;
+    border: solid white 1px;
+    border-radius: 20px;
+    color: white;
+}
+.btn-blue:hover {
+    background-color: #82D9F7;
+    color: black;
+    border: solid #6ABDDA 1px;
+}
+.sec1 {
+    background-color: #EAF4FB;
+}
+.sec1 .p1 {
+    font-weight: 900;
+}
+.sec1 .p2 {
+    border: solid salmon 3px;
+    text-align: center;
+    font-size: 40px;
+    color: salmon;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 10px 5px;
+}
+.sec1 .p3 {
+    font-size: 20px;
+}
+.btn-yellow {
+    font-weight: 900;
+    font-size: 13px;
+    background-color: #EAC927;
+    padding: 10px 30px;
+    border: solid white 2px;
+    border-radius: 50px;
+}
+.sec2 {
+    background: linear-gradient(120deg, #6ABDDA 50%, #B5DBE8 0);
+}
+.arrow-m i {
+    font-weight: 900;
+    color: #6ABDDA;
+    font-size: 30px;
+}
+.sec3 {
+    background-color: #FEFFF6;
+}
+.sec3 .card-footer {
+    font-size: 12px;
+}
+.sec3 .col-12 p {
+    color: #24AAD8;
+}
+.sec4 .p1 {
+    color: #24AAD8;
+}
+.blink{
+    /* width:200px; */
+    /* height: 50px; */
+    /* padding: 15px;	 */
+    text-align: center;
+    line-height: 50px;
+} 
+.sec4 .p3{
+    /* font-size: 25px; */
+    font-weight: bolder;
+    color:#EAC927;
+    animation: blink 2s linear infinite;
+}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+/* .sec4 .p3 {
+    color: #6ABDDA;
+    font-weight: bolder;
+} */
+.sec4 .selection-btn {
+    font-size: 20px;
+    font-weight: 800;
+}
+.btn-active {
+    border-bottom: solid #24AAD8 4px;
+}
+.sec4-child .col-12 h6 {
+    color: #24AAD8;
+}
+.sec4-child .filter {
+    font-size: 12px;
+}
+.sec4-child button {
+    border: solid #24AAD8 2px;
+    font-weight: 400;
+    color: #24AAD8;
+    margin-bottom: 10px;
+}
+.sec4-child .border-cus {
+    border-right: solid lightgray 1px;
+}
+.sec4-child .border-cus p {
+    font-weight: 600;
+}
+.sec4-child table,.sec4-child td {
+    border: solid lightgray 1px;
+}
+.sec4-child .table-date {
+    background-color: #EAEDED;
+}
+.sec4-child .venue-title {
+    font-size: 13px;
+}
+.sec4-child .venue-address {
+    color: #B6B6B6;
+}
+.sec4-child .vac-name span {
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    padding: 2px 5px;
+}
+.sec5 h2,.sec6 h2,.sec7 h2 {
+    color: #24AAD8;
+}
+.sec6 {
+    background-color: #FEFFF6;
+}
+.sec7 table {
+    overflow-y: scroll;
+    background-color: #EAEDED;
+}
+.sec7 .table td {
+    padding-left: 80px;
+    font-size: 15px;
+}
+footer{
+    background-color: #24AAD8;
+}
+footer .links-heading{
+    color: white;
+    margin-top: 100px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+footer ul{
+    padding: 0;
+}
+footer p,footer ul li a{
+    color: white;
+    line-height: 1.8;
+    text-decoration: none;
+}
+footer ul li{
+    list-style-type: none;
+    line-height: 2.5;
+}
+footer .contact-info{
+    line-height: 2.1;
+    color: white;
+}
+footer .contact-info .title{
+    font-weight: 900;    
+}
+footer .contact-info span {
+    padding-left: 30px;
+}
+footer .contact-info span a{
+    color: white;
+    text-decoration: none;
+}
+.footer-sec-2{
+    background-color: #82D9F7;
+    padding: 20px 0;
+}
+#tac{
+    text-align: right;
+}
+#footer-logo{
+    text-align: center;
+    padding: 0;
+}
+#md-screen{
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .arrow-m {
+        display: none;
+    }
+    .card {
+        margin: auto;
+    }
+    .sec5,.sec6 {
+        text-align: center;
+    }
+    .sec6 h2 {
+        margin-top: 30px;
+    }
+    #form1 button,#form2 button {
+        margin-top: 20px;
+    }
+    .sec7 .table td {
+        padding-left: 10px;
+    }
+    #footer-logo{
+        display: none;
+    }
+    #md-screen{
+        display: block;
+    }
+    #arr,#tac{
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+    }
+}

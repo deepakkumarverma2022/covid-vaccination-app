@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Covid vaccination updation-Book Slot-Register-Download-Certificates">
+  <title>Covid Vaccination app</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/9ab505fa84.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-white nav-color">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#"><img src="img/logo.png" class="w-100" height="50px" alt=""></a>
+      <button class="navbar-toggler" type="button" id="menu_button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars-staggered pt-1"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#bookslot">Book Slot</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/verify.html" target="_blank">Verify Certificate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-blue px-4" href="Register.html" target="_blank">Register / Sign In</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid sec1">
+    <div class="container" style="padding-top: 80px;">
+      <div class="row">
+        <div class="col-md-6 my-auto">
+          <p class="p1 h2 my-5">
+            Historic & Unparalleled Achievement !<br>India's Glorious Journey of
+          </p>
+          <p class="p2 my-5">
+            <i class="fa-solid fa-shield me-3"></i>200 CRORE VACCINATIONS
+          </p>
+          <p class="p3 my-5">
+            <span class="fw-bold">"India is set to defeat Covid-19. Every Indian is making it possible."</span><br>
+            - PM Narendra Modi
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="img/independance.svg" class="w-100" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid sec2">
+    <div class="row pt-4">
+      <div class="col-md-5 text-end pe-5 text-white fw-bolder">
+        <h6>TOTAL VACCINATION DOSES</h6>
+        <p id="s1">2199198635</p>
+      </div>
+      <div class="col-md-2 text-center">
+        <a href="#" class="btn btn-yellow my-auto">VIEW MORE</a>
+      </div>
+      <div class="col-md-5 ps-5 text-white fw-bolder">
+        <h6>VACCINATIONS DONE TODAY</h6>
+        <p id="s2">15134</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid sec3 py-5">
+    <div class="container">
+      <div class="row pt-3 pb-5">
+        <div class="col-12">
+          <p class="text-center h2">Get Vaccinated in 3 Easy Steps</p>
+        </div>
+      </div>
+      <div class="row mx-auto text-center">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <div class="card mb-3 text-center shadow-lg" style="max-width: 18rem;">
+            <div class="card-header bg-transparent p-5 pb-0"><img src="img/Step_1.svg" class="w-100" alt=""></div>
+            <div class="card-body" style="background-color: #82D9F7;">
+              <p class="card-text text-white fw-bold">Book an Appointment on Website or Walk into any Vaccination Center
+              </p>
+            </div>
+            <div class="card-footer bg-transparent text-black-50">How to Book Your<br>Appointment on website</div>
+          </div>
+        </div>
+        <div class="col-md-1 my-auto arrow-m"><i class="fa-solid fa-greater-than"></i></div>
+        <div class="col-md-3">
+          <div class="card mb-3 text-center shadow-lg" style="max-width: 18rem;">
+            <div class="card-header bg-transparent p-5 pb-0"><img src="img/Step_2.svg" class="w-100" alt=""></div>
+            <div class="card-body" style="background-color: #82D9F7;">
+              <p class="card-text text-white fw-bold">Get Your Vaccination Safely at the Time of Your <br> Appointment
+              </p>
+            </div>
+            <div class="card-footer bg-transparent text-black-50">Dos and Donts for Getting<br>Vaccinated</div>
+          </div>
+        </div>
+        <div class="col-md-1 my-auto arrow-m"><i class="fa-solid fa-greater-than"></i></div>
+        <div class="col-md-3">
+          <div class="card mb-3 text-center shadow-lg" style="max-width: 18rem;">
+            <div class="card-header bg-transparent px-5 pt-3 pb-0"><img src="img/Step_3.svg" class="w-100" alt=""></div>
+            <div class="card-body" style="background-color: #82D9F7;">
+              <p class="card-text text-white fw-bold">Download Your Vaccination Certificate from Website and wait for
+                Dose #2</p>
+            </div>
+            <div class="card-footer bg-transparent text-black-50">Download Your Vaccine<br>Certificate</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid sec4 py-5" id="bookslot">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12">
+          <p class="h2 py-5 p1">Search Your Nearest Vaccination Center</p>
+          <p class="p2">Get a preview list of the nearest centers and check availability of vaccination slots</p>
+
+          <div class="blink">
+            <p class="p3">LOGIN TO BOOK YOUR SLOT</p>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center border-bottom mb-4">
+        <div class="col-12">
+          <a class="btn selection-btn btn-active mx-2" id="district" onclick="toggleCtoD()">By District</a>
+          <a class="btn selection-btn mx-2" id="pin" onclick="toggleDtoC()">By PIN</a>
+        </div>
+      </div>
+      <form class="row mx-auto" id="form1">
+        <div class="col-md-5">
+          <select name="state" id="state" class="form-select text-black-50">
+            <option value="" disabled selected hidden>Select Your State</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+            <option value="Daman and Diu">Daman and Diu</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Lakshadweep">Lakshadweep</option>
+            <option value="Puducherry">Puducherry</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+          </select>
+        </div>
+        <div class="col-md-5">
+          <select name="" id="" class="form-select text-black-50">
+            <option value="" disabled selected hidden>Select Your City</option>
+            <option value=""></option>
+          </select>
+        </div>
+        <div class="col-md-2 text-center"><button class="btn btn-blue px-5 py-2">Search</button></div>
+      </form>
+      <form class="row mx-auto d-none" id="form2" action="">
+        <div class="col-md-3"></div>
+        <div class="col-md-4">
+          <input type="text" class="form-control" placeholder="Enter PIN code of Your Area" name="" id="pin-input">
+        </div>
+        <div class="col-md-2 text-center">
+          <a class="btn btn-blue px-5 py-2" id="pin-search" onclick="showCenter()">Search</a>
+        </div>
+        <div class="col-md-3"></div>
+      </form>
+    </div>
+  </div>
+
+  <div class="container sec4-child d-none" id="sec4-child">
+    <div class="row mt-4">
+      <div class="col-12">
+        <h6>Slot Search Results <span class="text-muted">(2 Center(s) Found)</span></h6>
+      </div>
+    </div>
+    <div class="row py-5">
+      <div class="col-md-1 border-cus">
+        <p class="filter">Filter Results By :</p>
+      </div>
+      <div class="col-md-2 border-cus">
+        <p>Age</p>
+        <button class="btn">12-17</button>
+        <button class="btn">15+</button>
+        <button class="btn">18+</button>
+      </div>
+      <div class="col-md-3 border-cus">
+        <p>Dose</p>
+        <button class="btn">Dose 1</button>
+        <button class="btn">Dose 2</button>
+        <button class="btn">Dose 3</button>
+        <button class="btn">Precaution Dose</button>
+      </div>
+      <div class="col-md-1 border-cus">
+        <p>Cost</p>
+        <button class="btn">Paid</button>
+        <button class="btn">Free</button>
+      </div>
+      <div class="col-md-5 fw-bolder">
+        <p>Vaccine</p>
+        <button class="btn">Covishield</button>
+        <button class="btn">Covaxin</button>
+        <button class="btn">Sputnik V</button>
+        <button class="btn">ZyCov-D</button>
+        <button class="btn">Corbevax</button>
+        <button class="btn">Covovax</button>
+        <button class="btn">Gemcovac</button>
+      </div>
+    </div>
+    <div class="row py-4">
+      <div class="col-12">
+        <ul>
+          <li>Slots are updated by state vaccination centers and private hospitals everyday at 8AM, 12PM, 4PM, & 8PM.
+          </li>
+          <li>Walk-in available at all vaccination centers for age 12 years and above (For timings for walk-in
+            vaccinations, please contact the vaccine center.)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row py-4">
+      <div class="col-12">
+        <table class="table">
+          <tr class="table-date">
+            <td class="py-4"></td>
+            <td class="py-4">Sat,16 dec</td>
+            <td class="py-4">Sun,17 dec</td>
+            <td class="py-4">Mon,18 dec</td>
+            <td class="py-4">Tue,19 dec</td>
+          </tr>
+          <tr>
+            <td>
+              <p class="venue-title my-0">JLMNCH COVAXIN</p>
+              <p class="venue-address my-0">JLNMCH COVAXIN
+                MAYAGANJ BHAGALPUR, BIHAR, 812001</p>
+              <p class="vac-name my-0">COVAXIN <span>FREE</span></p>
+              <p class="vac-age my-0">Age : 15 & Above</p>
+            </td>
+            <td class="text-center text-success fw-bold">Available</td>
+            <td class="text-center">N/A</td>
+            <td class="text-center">N/A</td>
+            <td class="text-center">N/A</td>
+          </tr>
+          <tr>
+            <td>
+              <p class="venue-title my-0">ISHAKCHAK</p>
+              <p class="venue-address my-0">ISHAKCHAK MIRJANHAT ROAD BHAGALPUR, BIHAR, 812001</p>
+              <p class="vac-name my-0">COVAXIN <span>FREE</span></p>
+              <p class="vac-age m-0">Age : 15 & Above</p>
+            </td>
+            <td class="text-center text-success fw-bold">Available</td>
+            <td class="text-center">N/A</td>
+            <td class="text-center">N/A</td>
+            <td class="text-center">N/A</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid sec5 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 my-auto">
+          <h2 class="mb-4">Free COVID Precaution Dose</h2>
+          <p class="mb-4">Now Precaution dose for 18-59 age group free at Government<br> Vaccination Centre.</p>
+          <button class="btn btn-blue px-5 py-2">Book Your Slot</button>
+        </div>
+        <div class="col-md-6">
+          <img src="img/free_covid_precaution_dose.svg" class="w-75" height="300" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid sec6 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/reports-aefi.svg" class="w-100" alt="">
+        </div>
+        <div class="col-md-6 my-auto ps-5">
+          <h2 class="mb-4">Report Side Effect</h2>
+          <p class="mb-4">If you have experienced any side effect after COVID-19 vaccination, it can be<br> reported on
+            Co-WIN using your registered mobile number.
+          </p>
+          <button class="btn btn-blue px-5 py-2">Report Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid sec7 py-5" id="faq">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col-md-3 py-5">
+          <img src="img/faq_Section.svg" class="w-100" alt="">
+        </div>
+        <div class="col-md-9 py-5">
+          <table class="table">
+            <tr>
+              <td>
+                <details>
+                  <summary>1. Where can I register for COVID-19 vaccination?</summary>
+                  <p>You can open our portal using the link www.vc.in and click on the “Register/Sign In” tab to
+                    register for COVID-19 vaccination, and follow the steps thereafter.</p>
+                </details>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary>2. Is there a mobile app that needs to be installed to register for vaccination?</summary>
+                  <p>There is no authorised mobile app for registering for vaccination in India except Aarogya Setu and
+                    Umang Apps. You need to log into the our portal at www.vc.gov.in. Alternatively, you can also
+                    register for vaccination through the Aarogya Setu App or Umang apps.</p>
+                </details>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary>3. Which age groups can register for vaccination on the Co-WIN portal?</summary>
+                  <p>All beneficiaries who have completed 12 years of age and above on the day of registration (birth
+                    year 2010 or earlier) can register for vaccination.</p>
+                </details>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary>4. Is online registration mandatory for COVID-19 vaccination?</summary>
+                  <p>No, vaccination centers provide for a limited number of on-spot registration slots every day.
+                    Beneficiaries can register online or walk-in to vaccination centers where the vaccination team staff
+                    can register a beneficiary. In general, all beneficiaries are recommended to register online and
+                    schedule vaccination in advance for a hassle-free vaccination experience.</p>
+                </details>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary>5. How many people can be registered in the Co-WIN portal through one mobile number?
+                  </summary>
+                  <p>Up to 6 people can be registered for vaccination using the same mobile number.</p>
+                </details>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary>6. How can beneficiaries with no access to smart phones, computers or internet manage online
+                    registration?</summary>
+                  <p>Up to 6 people can be registered for vaccination using the same mobile number. Beneficiaries can
+                    take help from friends or family for online registration.</p>
+                </details>
+              </td>
+            </tr>
+
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="container-fluid">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-4 col-md-6">
+          <div class="links-heading custom-fonts">
+            <h3>About Us</h3>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic porro nemo alias dolore. Assumenda enim
+            corrupti nostrum! Nihil error fugiat vero asperiores et iste officia, porro excepturi molestias
+            reprehenderit sunt?</p>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="links-heading custom-fonts">
+            <h3>Useful Links</h3>
+          </div>
+          <ul class="quick-links">
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#services">Services</a></li>
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="links-heading custom-fonts">
+            <h3>Contact Info</h3>
+          </div>
+          <div class="contact-info">
+            <div class="title"><i class="fa-solid fa-phone me-3"></i>Helpline</div>
+            <span><a href="#">+91-11-23978046 (Toll Free - 1075 )</a></span>
+          </div>
+          <div class="contact-info">
+            <div class="title"><i class="fa-solid fa-phone me-3"></i>Technical Helpline</div>
+            <span><a href="#">0120-4783222</a></span>
+          </div>
+          <div class="contact-info">
+            <div class="title"><i class="fa-solid fa-phone me-3"></i>Child</div>
+            <span>1098</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="container-fluid footer-sec-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-4" id="md-screen">
+          <img src="img/logo.png" id="img-logo-md-screen" height="50" alt="">
+        </div>
+        <div class="col-md-5 my-auto" id="arr">
+          <span>2022 VC - All Rights Reserved.</span>
+        </div>
+        <div class="col-md-2 my-auto" id="footer-logo">
+          <img src="img/logo.png" id="img-logo" height="50" alt="">
+        </div>
+        <div class="col-md-5 my-auto" id="tac">
+          <span>Terms & Conditions | Privacy Policy</span><br>
+          <span>"Fear not get your shot" - Deepak Verma</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
